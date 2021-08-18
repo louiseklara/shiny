@@ -1,0 +1,132 @@
+#tabset_web+div h5 {
+    background-color: #eee;
+    font-weight: bold;
+    padding: 7px 3px;
+}
+
+#tabset_web+div table thead tr th {
+    text-transform: capitalize;
+    font-size: 18px !important;
+    color: red;
+}
+
+#filter-table td {
+    max-width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url(font/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "NunitoSemiBold";
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "NunitoBlack";
+    src: url(font/NunitoSans-Black.ttf);
+}
+
+@font-face {
+    font-family: "NunitoExtraBold";
+    src: url(font/NunitoSans-ExtraBold.ttf);
+}
+
+* {
+    font-family: "Nunito";
+}
+
+
+.logoTitle_style {
+    font-family: 'NunitoSemiBold'!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top:45px;
+    font-size: 26px !important; 
+    color: #2679B5 !important;
+    font-weight: 900;
+    background-color: none;
+    text-align: center;
+    /*padding: 10px 7px;*/
+}
+
+.inner-footfall-tab{
+  
+  font-size: 20px;   
+  color: #2679B5; 
+  font-weight: 400;
+  background-color: none;
+  text-align: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+ /* padding: 7px 7px;*/
+}
+
+.filtersubmit {
+    width: 300px;
+    height: 49.09px;
+    background: #094caa;
+    color: #fff;
+    font-family: "NunitoSemiBold";
+    border-radius: 10px;
+    
+   
+    text-align: center;
+
+    margin-top: 15px;
+    transition: 0.3s;
+    margin-left: 38%;
+    vertical-align: middle;
+}
+
+.btn-default {
+    background-color: #094caa;
+    color: #FFFFFF;
+    border-color: #094caa;
+    width: 300px;
+    height: 49.09px;
+}
+
+.filtersubmit .btn.btn-default.action-button.shiny-bound-input {
+   background: transparent;
+    border: none;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    transition: 0.3s
+}
+
+.filtersubmit:hover .btn.btn-default.action-button.shiny-bound-input {
+    color: #fff;
+    transition: 0.3s;
+    background-color: #094caa;
+    
+}
+
+.filtersubmit .btn.btn-default.action-button.shiny-bound-input::after {
+    
+    position: absolute;
+    color: #fff;
+    right: 5px;
+    top: 15px;
+    transition: 0.3s;
+}
+
+.filtersubmit:hover .btn.btn-default.action-button.shiny-bound-input::after {
+    color: #094caa;
+    transition: 0.3s;
+}
+
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
